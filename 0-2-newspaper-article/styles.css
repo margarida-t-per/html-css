@@ -1,0 +1,107 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+#artigo {
+    margin: 0px auto 90px auto;
+    max-width: 900px;
+    overflow: hidden;
+}
+
+#artigo p:first-of-type {
+    text-align: center;
+}
+
+#artigo ul:first-of-type {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+#artigo a{
+    text-decoration: none;
+}
+
+#artigo a:hover{
+    text-decoration: underline;
+}
+
+#artigo img {
+    width: 100%;
+}
+
+.bloco {
+    display: block;
+}
+
+.perc100 {
+    width: 100%;
+}
+
+.cinzento {
+    background: rgb(239, 239, 239);
+}
+
+.arredondado {
+    border: none;
+    border-radius: 4px;
+}
+
+.pad10 {
+    padding: 10px 0px 10px 0px;
+}
+
+.pad5 {
+    padding: 5px 0px 5px 0px;
+}
+
+/* FORMULARIO */
+
+
+#form_1 {
+margin-top: 60px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+#form_1 textarea {
+    height: 100px;
+}
+
+#form_1 textarea:focus {
+    background: lightgray;
+}
+
+#form_1 button {
+    border: none;
+    border-radius: 4px;
+    background: rgb(239, 239, 239);
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0px 0px 5px lightgray;
+}
+
+#form_1 button:hover {
+    padding: 5px;
+    background: lightgray;
+}
+
+#form_1 input {
+    padding: 5px;
+}
+
+#form_1 input:focus {
+    background: lightgray;
+}
+
+#form_1 div {
+    padding: 5px;
+}
+
+.tercos {
+    display: inline-block;
+    width: 29%;
+}

@@ -1,0 +1,99 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(231, 37, 189),rgb(102, 40, 105) );
+}
+
+.card{
+    margin: 100px auto;
+    background: linear-gradient(45deg, red, orange);
+width: 450px;
+border-radius: 10px;
+box-shadow:  0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.card__nav{
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+}
+.card__nav__price{
+position: absolute;
+right: 20px;
+}
+
+.card__main{
+    color: white;
+}
+.card__description{
+    padding: 20px;
+}
+
+.card__footer{
+    background: white;
+    
+}
+
+.card__thumbnail{
+    position: relative;
+    height: 330px;
+}
+
+.card__thumbnail img {
+    height: 430px;
+    position: absolute;
+    bottom: -100px;
+    right: -50px;
+    z-index: 1;
+}
+.card__backdrop {
+    position: relative;
+    overflow: hidden;
+}
+
+.card__backdrop__text{
+    position: relative;
+    font-size: 300px;
+    font-weight: 600;
+    opacity: 0.3;
+    left: -23px;
+}
+.card__footer{
+    height: 100px;
+    padding-top: 30px;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+
+.btn__buy {
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%, 0);
+    background: white;
+    cursor: pointer;
+    z-index: 3;
+    color: blue;
+    padding: 8px 32px;
+    border: solid 2px blue;
+    border-radius: 50px;
+}
+.btn__buy:hover{
+    background: blue;
+    color: white;
+}
+.card__category{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    bottom: 20px;
+    color: lightgray;
+}

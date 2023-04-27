@@ -1,0 +1,34 @@
+
+
+/* Navbar */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 20px 60px 20px;
+}
+.navbar img{
+width: 85px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.navbar li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section{
+    margin: 60px auto;
+}

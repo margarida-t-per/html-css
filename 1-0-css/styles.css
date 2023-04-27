@@ -1,0 +1,204 @@
+:root{
+    --primary: black;
+    --default: #b8b8b8;
+    --danger: #da1a2d;
+    --success: #198754;
+    --warning: #be6019;
+    --info: #0000e7;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* -------------------------------------------------------- Avatar */
+
+.avatar{
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.avatar__thumbnail {
+    width: 100%;
+    border-radius: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+
+.avatar--s {
+    width: 40px;
+    height: 40px;
+}
+.avatar--m {
+    width: 60px;
+    height: 60px;
+}
+.avatar--l {
+    width: 70px;
+    height: 70px;
+}
+.avatar--xl {
+    width: 80px;
+    height: 80px;
+}
+
+.avatar__status {
+    position: absolute;
+    bottom:0;
+    right:8px;
+    height: calc(100%/5);
+    width: calc(100%/5);
+    border-radius: 50%;
+    background-color: transparent;
+}
+.avatar__status--on {
+    background-color: var(--danger);
+}
+
+
+/* -------------------------------------------------------- Text */
+
+.text{
+    color: var(--primary);
+}
+
+.heading1{
+    font-size: 2rem;
+}
+
+.heading2{
+    font-size: 1.5rem;
+}
+
+.heading3{
+    font-size: 1.125rem;
+}
+
+.heading4{
+    font-size: 1rem;
+}
+
+.heading5{
+    font-size: 0.8rem;
+}
+
+.heading6{
+    font-size: 0.6;
+}
+
+.paragraph{
+    font-size: 1rem;
+}
+
+
+
+/* -------------------------------------------------------- Btn */
+
+.btn {
+    border-radius: 10px;
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: none;
+    background-color: var(--default);
+    color: white;
+    cursor: pointer;
+}
+/* Btn sizes */
+
+.btn--s{
+    padding: 6px 16px;
+}
+.btn--m{
+    padding: 10px 16px;
+}
+
+/* Btn colors */
+
+.btn--default{
+    background-color: var(--default);
+}
+.btn--info{
+    background-color: var(--info);
+}
+.btn--success{
+    background-color: var(--success);
+}
+.btn--warning{
+    background-color: var(--warning);
+}
+.btn--danger{
+    background-color: var(--danger);
+}
+
+/* Outline */
+
+.btn--outline{
+    border: solid 1px;
+}
+
+/* Outline colors */
+
+.outline--default{
+    border-color: var(--default);
+    color: var(--default);
+    background-color: white;
+}
+.outline--info{
+    border-color: var(--info);
+    color: var(--info);
+    background-color: white;
+}
+.outline--success{
+    border-color: var(--success);
+    color: var(--success);
+    background-color: white;
+}
+.outline--warning{
+    border-color: var(--warning);
+    color: var(--warning);
+    background-color: white;
+}
+.outline--danger{
+    border-color: var(--danger);
+    color: var(--danger);
+    background-color: white;
+}
+
+.alert{
+    display: inline-block;
+    color: black;
+    padding: 8px 16px;
+    margin: 10px 0;
+}
+
+.alert--default{
+    background-color: var(--default);
+    color: black;
+}
+
+.alert--success{
+    background-color: var(--success);
+    color: white;
+}
+
+.alert--danger{
+    background-color: var(--danger);
+    color: white;
+}
+
+.alert--warning{
+    background-color: var(--warning);
+    color: white;
+}
+
+.btn__alert{
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 0;
+    font-size: 18px;
+}
+
